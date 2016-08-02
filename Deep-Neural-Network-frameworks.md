@@ -29,9 +29,7 @@ There are following Deep neural network frameworks are Introduced by various res
 |  	5.2. Funny CNN 									|	 - Stack of layers 																|
 |  	5.3. Fast R-CNN 								|    - Graph of layers 																|
 |  	5.4. Batch Normalization						|	 But essentially network is defined as a graph of layers.  						|
-| 6. Layers are defined in C++, while networks are defined via Protobuf. 	| 9. Torch is sometimes considered less flexible because for new layers types and User have to Implement the full forward, backward & gradient input update. |
-|
-| 7. Caffe has PyCaffe client Interface & command line Interface, model has to defined in Protobuf.	| 10. Defining new layer is much easier and the difference between new layer        |
+| 6. Layers are defined in C++, while networks are defined via Protobuf. 	| 9. Torch is sometimes considered less flexible because for new layers types and User have to Implement the full forward, backward & gradient input update. | 7. Caffe has PyCaffe client Interface & command line Interface, model has to defined in Protobuf.	| 10. Defining new layer is much easier and the difference between new layer        |
  		|	  definition & network definition is minimal.									|
 										| 11. Runs on LuaJIT so it is much faster than C++ / C# / Java.						|
 | 8. Cross- Platform due to Core C++ Implementation.| 12. Who uses Torch:																|
